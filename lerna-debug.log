@@ -1,0 +1,6 @@
+29 error Error: EBADF: bad file descriptor, write
+29 error     at writeFileSync (node:fs:2352:20)
+29 error     at writeJsonFile (/Users/chenjianou/Desktop/workspace/lerna-repo/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/utils/fileutils.js:55:28)
+29 error     at _Project.serializeConfig (/Users/chenjianou/Desktop/workspace/lerna-repo/node_modules/.pnpm/lerna@8.1.3_encoding@0.1.13/node_modules/lerna/dist/index.js:1206:42)
+29 error     at VersionCommand.updatePackageVersions (/Users/chenjianou/Desktop/workspace/lerna-repo/node_modules/.pnpm/lerna@8.1.3_encoding@0.1.13/node_modules/lerna/dist/index.js:8434:74)
+29 error     at async Promise.all (index 0)
