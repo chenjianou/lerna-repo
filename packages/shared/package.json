@@ -1,9 +1,9 @@
 {
   "name": "@jarrown/shared",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "chenjianou <chenjianou98@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/chenjianou/lerna-repo#readme",
   "license": "ISC",
   "main": "lib/shared.js",
   "directories": {
@@ -13,10 +13,14 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjianou/lerna-repo.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@jarrown/shared.test.js"
+    "test": "node ./__tests__/shared.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/chenjianou/lerna-repo/issues"
   }
 }

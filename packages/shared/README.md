@@ -1,11 +1,11 @@
-# `@jarrown/shared`
+# `shared`
 
 > TODO: description
 
 ## Usage
 
 ```
-const shared = require('@jarrown/shared');
+const shared = require('shared');
 
 // TODO: DEMONSTRATE API
 ```
