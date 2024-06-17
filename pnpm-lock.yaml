@@ -35,7 +35,7 @@ importers:
 
   packages/web1:
     dependencies:
-      '@manage/shared':
+      '@jarrown/shared':
         specifier: workspace:^1.0.0
         version: link:../shared
       vue:

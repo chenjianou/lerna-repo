@@ -1,10 +1,8 @@
 {
-  "name": "monorepo",
+  "name": "@jarrown/monorepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is a quick demo for monorepo using pnpm + vite + vue3 + antdv.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev:web1": "cd packages/web1 && pnpm run dev"
   },
   "keywords": [],
@@ -20,5 +18,13 @@
     "typescript": "^5.1.6",
     "unplugin-vue-components": "^0.25.1",
     "vite": "^4.4.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjianou/lerna-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenjianou/lerna-repo/issues"
+  },
+  "homepage": "https://github.com/chenjianou/lerna-repo#readme"
 }
