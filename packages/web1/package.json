@@ -1,5 +1,5 @@
 {
-  "name": "@jarrown/web1",
+  "name": "@jarrown/web",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jarrown/shared": "workspace:^0.0.1",
+    "@jarrown/shared": "workspace:^",
     "vue": "^3.3.4"
   },
   "devDependencies": {
