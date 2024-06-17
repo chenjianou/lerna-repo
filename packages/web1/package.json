@@ -1,7 +1,7 @@
 {
   "name": "@jarrown/web1",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jarrown/shared": "workspace:^1.0.0",
+    "@jarrown/shared": "workspace:^0.0.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
