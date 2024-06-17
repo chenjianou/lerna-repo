@@ -1,0 +1,9 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/EmilyLike/monorepo-quick-demo.git/': Failed to connect to github.com port 443 after 21068 ms: Couldn't connect to server
+17 error     at makeError (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+17 error     at module.exports.sync (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:186:17)
+17 error     at Object.execSync (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\lerna@8.1.3_encoding@0.1.13\node_modules\lerna\dist\index.js:142:31)
+17 error     at updateRemote (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\lerna@8.1.3_encoding@0.1.13\node_modules\lerna\dist\index.js:7784:18)
+17 error     at isBehindUpstream (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\lerna@8.1.3_encoding@0.1.13\node_modules\lerna\dist\index.js:7774:3)
+17 error     at VersionCommand.initialize (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\lerna@8.1.3_encoding@0.1.13\node_modules\lerna\dist\index.js:8065:57)
+17 error     at VersionCommand.runCommand (C:\Users\qrg\Desktop\workspace\monorepo-quick-demo\node_modules\.pnpm\lerna@8.1.3_encoding@0.1.13\node_modules\lerna\dist\index.js:1861:36)
