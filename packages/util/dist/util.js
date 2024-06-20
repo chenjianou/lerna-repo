@@ -1,10 +1,4 @@
-function c(n) {
-  let t = 0;
-  const e = (o) => {
-    t = o, n.innerHTML = `count is ${t}`;
-  };
-  n.addEventListener("click", () => e(++t)), e(0);
-}
+const t = (d, o) => d + o;
 export {
-  c as setupCounter
+  t as add
 };

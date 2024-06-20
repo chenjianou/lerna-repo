@@ -4,8 +4,8 @@
   "scripts": {
     "changeset": "changeset",
     "changeset:version": "changeset version",
-    "publish": "changeset publish --registry=http://localhost:4873/ --access=public"
-
+    "publish": "changeset publish --registry=http://localhost:4873/ --access=public",
+    "build": "pnpm -r run build"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +14,6 @@
     "@changesets/cli": "^2.27.5",
     "vite-plugin-dts": "^3.9.1"
   },
-  "workspaces":[
-    "packages/*"
-  ],
   "publishConfig": {
     "registry": "http://localhost:4873/"
   }
