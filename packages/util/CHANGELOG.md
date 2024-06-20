@@ -1,5 +1,12 @@
 # @qrg/util
 
+## 0.0.3
+
+### Patch Changes
+
+- 发布正式包
+- 0e432b8: 测试发布
+
 ## 0.0.3-beta.0
 
 ### Patch Changes
