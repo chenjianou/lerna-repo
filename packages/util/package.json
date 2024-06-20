@@ -1,7 +1,7 @@
 {
   "name": "@qrg/util",
-  "private": true,
-  "version": "0.0.2",
+  "private": false,
+  "version": "0.0.3-beta.0",
   "type": "module",
   "files": [
     "dist",
@@ -22,5 +22,9 @@
   "devDependencies": {
     "typescript": "^5.4.5",
     "vite": "^5.2.10"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873/"
   }
 }
