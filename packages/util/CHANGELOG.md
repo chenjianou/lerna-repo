@@ -1,5 +1,11 @@
 # @qrg/util
 
+## 1.0.0
+
+### Major Changes
+
+- 重新测试发布功能
+
 ## 0.0.3
 
 ### Patch Changes
