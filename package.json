@@ -16,5 +16,8 @@
   },
   "publishConfig": {
     "registry": "http://localhost:4873/"
+  },
+  "dependencies": {
+    "@jeremye/eslint-config": "^0.0.3"
   }
 }

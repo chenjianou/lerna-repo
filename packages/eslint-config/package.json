@@ -1,0 +1,19 @@
+{
+  "name": "@qrg/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antfu/eslint-config": "^2.21.1",
+    "eslint": "^9.5.0"
+  }
+}
