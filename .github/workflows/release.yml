@@ -28,7 +28,7 @@ jobs:
 
       # https://pnpm.io/zh/cli/install#--frozen-lockfile
       - name: Install Dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install
 
       # https://github.com/changesets/action
       - name: Create Release Pull Request or Publish to npm
