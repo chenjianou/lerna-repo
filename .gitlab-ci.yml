@@ -1,0 +1,22 @@
+stages:
+  - comment
+  - release
+
+before_script: 
+  - pnpm install --frozen-lockfile
+
+comment:
+  image: node:lts-alpine
+  stage: comment
+  only:
+    - merge_requests
+  script: 
+    - pnpm changesets-gitlab comment # comment automatically like https://github.com/changesets/bot
+
+release:
+  image: node:lts-alpine
+  stage: release
+  only:
+    - master
+  script: 
+    - pnpm changesets-gitlab
