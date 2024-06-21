@@ -17,6 +17,6 @@ release:
   image: node:lts-alpine
   stage: release
   only:
-    - main
+    - master
   script: 
     - pnpm changesets-gitlab
