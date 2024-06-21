@@ -2,8 +2,8 @@
   "name": "qrg-monorepo",
   "version": "1.0.0",
   "scripts": {
-    "changeset": "changeset",
-    "changeset:version": "changeset version",
+    "change": "changeset",
+    "change:version": "changeset version",
     "publish": "changeset publish --registry=http://localhost:4873/ --access=public",
     "build": "pnpm -r run build"
   },

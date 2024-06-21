@@ -1,11 +1,14 @@
 {
   "name": "@qrg/util",
   "private": false,
-  "version": "1.0.0",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "dist",
-    "index.d.ts"
+    "index.d.ts",
+    "src",
+    "public",
+    "lib"
   ],
   "main": "./dist/util.umd.cjs",
   "module": "./dist/util.js",
