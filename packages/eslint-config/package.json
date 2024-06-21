@@ -1,6 +1,6 @@
 {
   "name": "@qrg/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "files": [
@@ -15,5 +15,9 @@
   "dependencies": {
     "@antfu/eslint-config": "^2.21.1",
     "eslint": "^9.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873/"
   }
 }
