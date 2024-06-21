@@ -9,7 +9,8 @@
     "prepublish": "pnpm changeset publish --tag beta",
     "commit": "cz",
     "postinstall": "husky install",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
   "author": "",
